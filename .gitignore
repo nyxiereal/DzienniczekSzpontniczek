@@ -1,1 +1,20 @@
-Nothing needs to be added to the .gitignore file since only a Kotlin source file was modified and no build artifacts, dependencies, or temporary files were detected in the changes.
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+composeApp/release
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
